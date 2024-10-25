@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Made by Matkard1 \n" ;
+    float DR, F, MR;
+    cout << "podaj kase i nie pierdol: \n";
+    cin >> F;
+    MR = F/12;
+    DR = F/15;
+    cout << "Ło kurwa małych rollo tyle :" << MR << endl;
+    cout << "Duży rollo podany:" << DR<< endl;
+    return 0;
+}
